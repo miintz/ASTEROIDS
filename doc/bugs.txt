@@ -1,0 +1,12 @@
+METAL ASTEROIDS known bugs
+
+* The collisions are not perfect, sometimes asteroids stick within each other when moving fast,
+  or skip collision entirely. 
+* You currently can cheat by moving the ship in the corner, the asteroids can't hit you. 
+  Really though, don't be THAT guy... 
+* Text placement is not optimal, should be done taking characters number in account.
+* There is a fair bit of RNG involved with the placement of asteroids, so the difficulty levels
+  can be a bit disjointed.
+* I need to take a look again at the various timers used, it works but it's very very ugly.
+* Collision with the player is a bit weird
+* Sometimes the health goes below zero making it impossible to lose
